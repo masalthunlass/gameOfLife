@@ -7,11 +7,8 @@ import android.arch.lifecycle.ViewModelProviders
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.DisplayMetrics
-import android.widget.GridLayout
-import android.widget.ImageView
-import com.example.masala.gameoflife.R
 import android.widget.LinearLayout
-import com.example.masala.gameoflife.R.id.cell
+import com.example.masala.gameoflife.R
 import com.example.masala.gameoflife.model.enums.LifeState
 import com.example.masala.gameoflife.presentation.view.CellView
 import com.example.masala.gameoflife.presentation.view.GridView
