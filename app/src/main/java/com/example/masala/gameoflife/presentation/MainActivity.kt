@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
 
                 val displayMetrics = DisplayMetrics()
                 windowManager.defaultDisplay.getMetrics(displayMetrics)
-                val maxWidth = displayMetrics.widthPixels - 16
-                val maxHeight = displayMetrics.heightPixels - 16
+                val maxWidth = displayMetrics.widthPixels
+                val maxHeight = displayMetrics.heightPixels
 
                 @Suppress("UNCHECKED_CAST")
                 return GridViewModel(maxWidth, maxHeight) as T
