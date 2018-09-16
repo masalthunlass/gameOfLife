@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">gameOfLife</string>
+    <string name="app_name">Le jeu de la vie</string>
+    <string name="largeur">Rangées</string>
+    <string name="hauteur">Colonnes</string>
+    <string name="ok">OK</string>
+    <string name="dimensions_de_la_grille">Dimensions de la grille</string>
+    <string name="create_grid">Créer</string>
+    <string name="longueur">Colonnes</string>
 </resources>
