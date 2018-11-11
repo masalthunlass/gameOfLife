@@ -16,7 +16,7 @@ class CreateGridDialog : DialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         super.onCreateDialog(savedInstanceState);
 
-        val dialogContent = activity.layoutInflater.inflate(R.layout.grid_dialog_layout, null)
+        val dialogContent = activity.layoutInflater.inflate(R.layout.create_grid_dialog_layout, null)
 
         return AlertDialog.Builder(activity)
                 .setTitle(R.string.dimensions_de_la_grille)

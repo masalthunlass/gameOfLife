@@ -6,4 +6,8 @@
     <string name="dimensions_de_la_grille">Dimensions de la grille</string>
     <string name="create_grid">Créer</string>
     <string name="longueur">Colonnes</string>
+    <string name="grid">grille</string>
+    <string name="points">points</string>
+    <string name="play">lancer</string>
+    <string name="stop">stop</string>
 </resources>
