@@ -9,27 +9,6 @@
     android:orientation="vertical"
     android:padding="24dp">
 
-
-    <!--<LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="@android:color/white"
-        android:orientation="vertical"
-        android:paddingLeft="24dp"
-        android:paddingRight="24dp"> -->
-
-       <!-- <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:background="@android:color/white"
-            android:paddingBottom="36dp"
-            android:text="@string/dimensions_de_la_grille"
-            android:textColor="@color/colorPrimary"
-            android:textSize="21sp"
-            android:textStyle="bold" /> -->
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

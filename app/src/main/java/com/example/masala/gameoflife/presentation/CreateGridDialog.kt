@@ -27,8 +27,8 @@ class CreateGridDialog : DialogFragment() {
                         val extras = Bundle()
                         val intent = Intent(activity, GridActivity::class.java)
 
-                        val heightInput = dialogContent.findViewById<EditText>(R.id.height_input)
-                        val widthInput = dialogContent.findViewById<EditText>(R.id.width_input)
+                        val heightInput:EditText = dialogContent.findViewById(R.id.height_input) as EditText
+                        val widthInput:EditText = dialogContent.findViewById(R.id.width_input)  as EditText
 
                         extras.putInt("columns", Integer.valueOf(heightInput.text.toString().trim()))
                         extras.putInt("rows", Integer.valueOf(widthInput.text.toString().trim()))

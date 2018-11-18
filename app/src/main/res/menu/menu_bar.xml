@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/create_grid_btn"
+        android:icon="@drawable/grid_icon"
+        android:title="@string/grid"
+        app:showAsAction="always|withText"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/select_points_btn"
+        android:icon="@drawable/points_icon"
+        android:title="@string/points"
+        android:visible="true"
+        app:showAsAction="always|withText"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/run_gen_btn"
+        android:icon="@drawable/play_icon"
+        android:title="@string/play"
+        app:showAsAction="always|withText"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/stop_gen_btn"
+        android:icon="@drawable/exit_icon"
+        android:title="@string/stop"
+        app:showAsAction="always|withText"
+        android:enabled="true"/>
 
 </menu>
