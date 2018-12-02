@@ -13,27 +13,42 @@
 
 
     <style name="editTextFormTheme" parent="@android:style/Widget.EditText">
-        <item name="android:paddingBottom">16dp</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:fontFamily">sans-serif</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:layout_marginRight">20dp</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">56dp</item>
-        <item name="android:paddingLeft">10dp</item>
-        <item name="android:layout_marginTop">16dp</item>
-        <item name="android:ems">10</item>
-        <item name="android:textStyle">bold</item>
+            <item name="android:textSize">24sp</item>
+            <item name="android:fontFamily">sans-serif</item>
+            <item name="android:paddingLeft">12dp</item>
+            <item name="android:paddingRight">12dp</item>
+            <item name="android:paddingTop">16dp</item>
+            <item name="android:paddingBottom">16dp</item>
+            <item name="android:layout_width">280dp</item>
+            <item name="android:layout_height">56dp</item>
     </style>
 
     <style name="labelFormTheme" parent="@android:style/Widget.TextView">
+        <item name="android:height">16dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
 
     </style>
 
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/primaryTextColor</item>
+
+        <!-- Additionally if you want animations when dialog opening -->
+      <!--  <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item> -->
+    </style>
 
 
 

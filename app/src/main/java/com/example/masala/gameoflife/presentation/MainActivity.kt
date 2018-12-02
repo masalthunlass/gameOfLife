@@ -1,6 +1,7 @@
 package com.example.masala.gameoflife.presentation
 
 
+import android.app.FragmentTransaction
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
@@ -13,9 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout)
-
         displayBottomMenu()
-
     }
 
     private fun displayBottomMenu() {
@@ -26,10 +25,12 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.create_grid_btn -> {
                     CreateGridDialog().show(supportFragmentManager, "CREATE_GRID_DIALOG")
+
                     true
                 }
                 R.id.select_points_btn -> {
                     true
+
                 }
                 else -> true
             }

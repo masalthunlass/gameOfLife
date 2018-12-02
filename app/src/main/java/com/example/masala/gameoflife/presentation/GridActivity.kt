@@ -40,7 +40,7 @@ class GridActivity : AppCompatActivity() {
 
     private fun displayGrid(mViewModel: GridViewModel, rows: Int, columns: Int) {
 
-        setContentView(R.layout.grid_layout)
+        setContentView(R.layout.main_layout)
 
         val gridLayout: LinearLayout = findViewById(R.id.gridContainer) as LinearLayout
         val gridView = GridView(this, rows, columns)
